@@ -27,8 +27,24 @@
 <br />
 
 <p align="center">
-   Visual Studio Code (Terminal) <br/>
-<img src="https://imgur.com/5ru4MkA.png" height="80%" width="80%" "/>
-<p align="center"> <br/>
+   Visual Studio Code (Terminal -->Node Package Manager <br/>
+<img src="https://imgur.com/g1UNARa.png" height="80%" width="80%" "/>
+<p align="center"> NPM stands for Node Package Manager and init stands for initialize. This will set up your project for you so accept all the defaults then in will install a JSON file called package.json. Next we are going to install our modules.   <br/>
  
 <br />
+
+
+<br />
+
+<p align="center">
+   Module installation using Express <br/>
+<img src="https://imgur.com/WcHZ3vG.png" height="80%" width="80%" "/>
+<p align="center"> Express is used to make our API easily accept web requests. So type npm install express in the Terminal section.
+                   After it is install you should see in our package.json  dependecies and the express was installed. Then will will 
+                   install a few more modules body-parser, which is used to parse the body of API requests. And lastly we want to 
+                  install nodemon. Nodemon will automatically restart your server for you every time you save the file that you are 
+                  working on.<br/>
+ 
+<br />
+
+
