@@ -43,8 +43,16 @@
                    After it is install you should see in our package.json  dependecies and the express was installed. Then will will 
                    install a few more modules body-parser, which is used to parse the body of API requests. And lastly we want to 
                   install nodemon. Nodemon will automatically restart your server for you every time you save the file that you are 
-                  working on.<br/>
- 
-                  <br />
+                  working on. So type in npm install nodemone then after it install you can close the package.json. Then go to the RESTAPI 
+                  folder to create the main file with VSCODE.<br/>
+                                    <br />
+
+<p align="center">
+   Main File (Index.js) <br/>
+<img src="https://imgur.com/9SFprUj.png" height="80%" width="80%" "/>
+<p align="center"> <br/>
+
+</br>
+                                    
 
 
