@@ -43,14 +43,34 @@
                    After it is install you should see in our package.json  dependecies and the express was installed. Then will will 
                    install a few more modules body-parser, which is used to parse the body of API requests. And lastly we want to 
                   install nodemon. Nodemon will automatically restart your server for you every time you save the file that you are 
-                  working on. So type in npm install nodemone then after it install you can close the package.json. Then go to the RESTAPI 
-                  folder to create the main file with VSCODE.<br/>
-                                    <br />
+                  working on. So type in "npm install nodemon -g" then after its installed you can close the package.json. Then go to the 
+                  RESTAPI folder to create the main file that our API is going to use. We can call it "index.js"<br/>
+   
+      <br />
 
 <p align="center">
    Main File (Index.js) <br/>
-<img src="https://imgur.com/9SFprUj.png" height="80%" width="80%" "/>
-<p align="center"> <br/>
+<img src="https://imgur.com/Qzwf79T.png" height="80%" width="80%" "/>
+<p align="center">  Now we can start coding. The first thing we should do is import the modules that we have downloaded.
+                  then we want to test our server so start Node mon..which is nodemon and the name of the main file.<br/>
+
+</br>
+
+<p align="center">
+   Nodemon Running and Server Listening (Index.js) <br/>
+<img src="https://imgur.com/dfivoXm.png" height="80%" width="80%" "/>
+<p align="center"> So after we start Nodemon, and we have an API that is running and listening on port 3000, we can open up a browser 
+                  and go to http//localhost:3000, becuase its listening on our local computer and we say enter we should see.<br/>
+
+</br>
+
+
+</br>
+
+<p align="center">
+   http://LocalHost:3000 <br/>
+<img src="https://imgur.com/4nmxYvL.png" height="80%" width="80%" "/>
+<p align="center"> When you typed localhost:3000 in the HTTP browser it should send a GET request to our endpoint the we defined in our API at the root. And when the API receives the get request its should run whatever code that is within my json. Then the browser will render it on the screen.<br/>
 
 </br>
                                     
