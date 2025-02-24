@@ -73,6 +73,8 @@
 <p align="center"> When you typed localhost:3000 in the HTTP browser it should send a GET request to our endpoint the we defined in our API at the root. And when the API receives the get request its should run whatever code that is within my json. Then the browser will render it on the screen.<br/>
 
 </br>
+
+Let now create our example to putting our......
                                     
 
 
